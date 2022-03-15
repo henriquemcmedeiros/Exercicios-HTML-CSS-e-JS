@@ -1,0 +1,22 @@
+#primeiro {
+    color:blue;
+}
+
+#segundo {
+    color:white;
+    background-color:red;
+}
+
+#terceiro {
+    border-color:pink;
+}
+
+#quarto {
+    color:green;
+    border-color:black;
+}
+
+#quinto {
+    color:white;
+    background-color:black;
+}
