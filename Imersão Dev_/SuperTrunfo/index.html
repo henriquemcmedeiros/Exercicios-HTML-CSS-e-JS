@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="style.css" rel="stylesheet" type="text/css">
+    <title>SuperTrunfo</title>
+</head>
+<body>
+    <script src="superTrunfo.js"></script>
+    <div class="container">
+        <img src="../HenriqueMB.png" class="page-logo" alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <div class="imagem" id="imagem"></div>
+      
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div> 
+        </form>
+    </div>
+</body>
+</html>
