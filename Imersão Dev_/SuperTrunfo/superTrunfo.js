@@ -137,9 +137,9 @@ function jogar() {
   var valorCartaMaquina = cartaMaquina.atributos[atributoSelecionado];
   
   if (valorCartaJogador > valorCartaMaquina) {
-    var HTMLResultado = "<p class='resultado-final'>Venceu!</p>"
+    var HTMLResultado = "<p class='resultado-final'>Você Venceu!</p>"
   } else if (valorCartaJogador < valorCartaMaquina) {
-    var HTMLResultado = "<p class='resultado-final'>Você perdeu</p>"
+    var HTMLResultado = "<p class='resultado-final'>Você perdeu!</p>"
   } else {
     var HTMLResultado = "<p class='resultado-final'>Empatou!</p>"
   }
