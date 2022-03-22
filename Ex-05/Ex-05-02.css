@@ -1,0 +1,9 @@
+div {
+    position: absolute;
+    border-style: solid;
+    color: blue;
+    width: 400px;
+    height: 400px;
+    left: 100%;
+    margin-left: -410px;
+}

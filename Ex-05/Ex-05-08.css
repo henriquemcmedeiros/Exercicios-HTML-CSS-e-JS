@@ -1,0 +1,20 @@
+.div1 {
+    position: relative;
+    border-style: solid;
+    color: yellow;
+    width: 100px;
+    height: 700px;
+    top: 25px;
+    left: 25px;
+}
+
+.div2 {
+    position: fixed;
+    border-style: solid;
+    color: yellow;
+    width: 700px;
+    height: 100px;
+    left: 100%;
+    margin-left: -725px;
+    bottom: 50px;
+}

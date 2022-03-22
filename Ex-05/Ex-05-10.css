@@ -1,0 +1,24 @@
+.div1 {
+    position: relative;
+    border-style: solid;
+    color: green;
+    width: 225px;
+    height: 225px;
+    margin-top: 21px;
+}
+
+.div2 {
+    position: absolute;
+    border-style: solid;
+    color: red;
+    width: 150px;
+    height: 150px;
+    left: 100%;
+    margin-left: -175px;
+    bottom: 50px;
+}
+
+
+p {
+    color: orange;
+}

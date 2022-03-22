@@ -1,0 +1,21 @@
+.div1 {
+    position: absolute;
+    border-style: solid;
+    color: red;
+    width: 700px;
+    height: 100px;
+    left: 100%;
+    margin-left: -725px;
+    bottom: 650px;
+}
+
+.div2 {
+    position: absolute;
+    border-style: solid;
+    color: red;
+    width: 1000px;
+    height: 150px;
+    left: 100%;
+    margin-left: -1025px;
+    bottom: 50px;
+}

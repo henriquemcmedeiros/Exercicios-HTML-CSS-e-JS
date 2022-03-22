@@ -1,0 +1,11 @@
+div {
+    position: relative;
+    border-style: solid;
+    color: yellow;
+    width: 150px;
+    height: 100px;
+    top: 150px;
+    left: 50%;
+    margin-left: -125px;
+    
+}
