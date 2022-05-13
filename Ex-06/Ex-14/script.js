@@ -1,6 +1,10 @@
-num1 = parseInt(prompt("Digite um número: "));
+const num1 = parseInt(prompt("Digite um número: "));
 
-if (num1 > 100) {
-    num = num1 + 150;
+if (num1 < 100) {
+    var x = num1 + 150;
 }
-alert("O número é: " + num);
+else {
+    var x = num1;
+}
+
+alert("O número é: " + x);

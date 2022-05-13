@@ -14,4 +14,4 @@ if (valor < 11.90) {
     valor = 11.90;
 }
 
-alert("O calor da conta de luz é de:" + valor);
+alert("O valor da conta de luz é de: " + valor);
