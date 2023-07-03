@@ -19,6 +19,7 @@ body * {
 .container {
     width: 360px;
     margin: 56px auto 0px;
+    padding: 0 24px;
 }
 
 #profile {
@@ -45,10 +46,34 @@ ul {
     gap: 16px;
 }
 
-ul li {
+ul li a {
     padding: 16px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: background 0.2s;
 }
+
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
+
+/* SOCIAL MEDIA */
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
