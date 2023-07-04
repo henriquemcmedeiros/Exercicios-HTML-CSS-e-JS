@@ -43,6 +43,8 @@ body * {
     margin: 56px auto 0px;
     padding: 0 24px;
     align-items: center;
+    position: relative;
+    top: 50px;
 }
 
 /* PROFILE */
