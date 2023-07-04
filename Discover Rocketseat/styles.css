@@ -44,7 +44,7 @@ body * {
     padding: 0 24px;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 /* PROFILE */
@@ -62,6 +62,10 @@ body * {
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
+}
+
+#profile a {
+    text-decoration: none;
 }
 
 /* SWITCH */
