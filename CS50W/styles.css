@@ -66,3 +66,7 @@ button {
     height: 25px;
     margin-bottom: 10px;
 }  
+
+.textinput {
+    border: 1px solid blue;
+}
